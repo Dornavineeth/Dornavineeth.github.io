@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: Anuvaad
+description: Style Aware Machine Translation for Hindi
+img: assets/img/7.jpg
+redirect: https://unsplash.com
+importance: 3
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

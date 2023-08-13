@@ -1,84 +1,39 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{abhishek-etal-2022-spear,
+    title = "{SPEAR} : Semi-supervised Data Programming in Python",
+    author = "Abhishek, Guttu  and
+      Ingole, Harshad  and
+      Laturia, Parth  and
+      Dorna, Vineeth  and
+      Maheshwari, Ayush  and
+      Ramakrishnan, Ganesh  and
+      Iyer, Rishabh",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-demos.12",
+    pages = "121--127",
+    abstract = "We present SPEAR, an open-source python library for data programming with semi supervision. The package implements several recent data programming approaches including facility to programmatically label and build training data. SPEAR facilitates weak supervision in the form of heuristics (or rules) and association of noisy labels to the training dataset. These noisy labels are aggregated to assign labels to the unlabeled data for downstream tasks. We have implemented several label aggregation approaches that aggregate the noisy labels and then train using the noisily labeled set in a cascaded manner. Our implementation also includes other approaches that jointly aggregate and train the model for text classification tasks. Thus, in our python package, we integrate several cascade and joint data-programming approaches while also providing the facility of data programming by letting the user define labeling functions or rules. The code and tutorial notebooks are available at https://github.com/decile-team/spear. Further, extensive documentation can be found at https://spear-decile.readthedocs.io/. Video tutorials demonstrating the usage of our package are available https://youtube.com/playlist?list=PLW8agt{\_}HvkVnOJoJAqBpaerFb-z-ZlqlP. We also present some real-world use cases of SPEAR.",
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{10.1145/3587819.3590980,
+author = {Agarwal, Aishwarya and Srivastava, Anuj and Nair, Inderjeet and Mishra, Swasti Shreya and Dorna, Vineeth and Nangi, Sharmila Reddy and Srinivasan, Balaji Vasan},
+title = {SketchBuddy: Context-Aware Sketch Enrichment and Enhancement},
+year = {2023},
+isbn = {9798400701481},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3587819.3590980},
+doi = {10.1145/3587819.3590980},
+abstract = {Sketching is a visual thinking tool available to humans for several decades. With the advent of modern sketching technologies, artists use sketches to express and iterate their ideas. To accelerate sketch-based ideation and illustration workflows, we propose a novel framework, SketchBuddy, which retrieves diverse fine-grained object suggestions to enrich a sketch and coherently inserts it into the scene. Sketchbuddy detects objects in the input sketch to estimate the scene context which is then utilized for the recommendation and insertion. We propose a novel multi-modal transformer based framework for obtaining context-aware fine-grained object recommendations. We train a CNN-based bounding box classifier to extract information from the input scene and the recommended objects to infer plausible locations for insertion. While prior works focus on sketches at object-level only, SketchBuddy is the first work in the direction of scene-level sketching assistance. Our extensive evaluations comparing SketchBuddy against competing baselines across several metrics and agreements with human preferences demonstrate its value on several aspects.},
+booktitle = {Proceedings of the 14th Conference on ACM Multimedia Systems},
+pages = {217–228},
+numpages = {12},
+keywords = {bounding box classifier, SketchBuddy, multi-modal transformer, sketching technologies, recommendation},
+location = {Vancouver, BC, Canada},
+series = {MMSys '23}
 }
